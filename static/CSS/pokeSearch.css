@@ -1,0 +1,52 @@
+body {
+    background: linear-gradient(rgba(15,168,198, .2), rgba(15,168,198, .2)), url(../images/pokeball2.jpg);
+    min-height: 100vh;
+    background-size: cover;
+}
+form {
+    background-color: rgb(34,70,81, .5);
+    max-height: 200px;
+    max-width: 500px;
+}
+
+.card {
+    max-width: 500px;
+    background-color: #BDB5B5;
+    border: solid 10px;
+    border-color: #F3DA6D ;
+    color: black;
+}
+
+#cardBorder  {
+    border: solid 5px;
+    border-radius: 10px;
+    border-color: #F3DA6D;
+}
+.name {
+    text-transform: capitalize;
+}
+
+.type {
+    text-transform: capitalize;
+}
+#image {
+    min-width: 250px;
+    max-width: 250px;
+}
+.abilities, .topMove {
+    text-transform: capitalize;
+  }
+.move {
+    text-transform: capitalize;
+}
+/* @media  screen  and (min-width: 768) {
+    #image {
+        max-width: 300px;
+    }
+} */
+
+.btn {
+    background-color: #BB5368;
+    color: white;
+    border: 5px solid #BB5368;
+}
